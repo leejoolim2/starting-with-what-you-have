@@ -15,7 +15,7 @@ No installation, in a browser:
 Locally:
 
 ```bash
-git clone https://github.com/USER/starting-with-what-you-have.git
+git clone https://github.com/leejoolim2/starting-with-what-you-have.git
 cd starting-with-what-you-have
 pip install -r requirements.txt
 python ch04-spatial-statistics/spatial_hotspots.py
