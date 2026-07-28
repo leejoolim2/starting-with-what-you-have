@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/30457392/README.md)
 # Starting With What You Have
 
-Code and data for *Starting With What You Have: A Quantitative Field Guide for Urban Research in Data-Scarce Settings* by Joolim Lee, PhD.
+Code and data for *Starting With What You Have: Quantitative and Spatial Methods for Urban Research in the Global South* by Joolim Lee, PhD.
 
 Twelve methods, and the data conditions each one actually needs. Every method in Part 2 of the book is runnable here, on synthetic data with a known answer planted in it, so you can confirm the method works before trusting it on your own material.
 
