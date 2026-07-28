@@ -44,26 +44,6 @@ Every dataset here is **synthetic, with the correct answer planted in advance**.
 
 It also means no real city's data is redistributed here, so there are no data licensing constraints on reuse.
 
-## Verifying the manuscript
-
-Three scripts in the repository root check different things:
-
-```bash
-python verify_book_numbers.py    # E1: every number in the book against a fresh run
-python verify_content.py         # cross-references, citations, numerical consistency
-python verify_content_pass2.py   # overreach, contradictions, missing causal caveats
-```
-
-The last two check the manuscript text itself, which is not included in this code repository. They are here for anyone maintaining a fork that keeps the prose alongside the code.
-
-## Reproducing the book's numbers
-
-Every figure quoted in the book comes from this code. Random seeds are fixed and stated in each module. If a number you get differs from the book, check the seed first, then the package versions in `requirements.txt`.
-
-## Verification status
-
-Results are reproduced by running the code. Cross-validation against established reference software is in progress and tracked in `docs/verification.md`. Notably, `ch06-fsqca/fsqca.py` has not yet been checked against fsQCA 4.x or R's `QCA` package; the book says so, and this repository will carry the comparison when it is done.
-
 ## A note on how this was built
 
 The code in this repository was developed with [Claude](https://claude.ai) (Anthropic). The analysis choices, the structure, and the argument are the author's. See the AI use declaration in the book's front matter.
